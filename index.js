@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Client, EmbedBuilder, PermissionsBitField, ButtonBuilder, AttachmentBuilder, ActionRowBuilder, ButtonStyle, ModalBuilder, TextInputBuilder, TextInputStyle, StringSelectMenuBuilder, ChannelType, PermissionFlagsBits, Embed, ReactionType } = require("discord.js");
 const db = require("pro.db");
 const fs = require("fs");
